@@ -5,11 +5,6 @@
 
 import scrapy
 
-
-# class FacebookscraperItem(scrapy.Item):
-#     # define the fields for your item here like:
-#     # name = scrapy.Field()
-#     pass
-
 class ImageItem(scrapy.Item):
-    image = scrapy.Field()
+    image_urls = scrapy.Field()
+    images = scrapy.Field()
